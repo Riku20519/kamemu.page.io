@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>かめむ～ブログ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+<!-- ヘッダー（すりガラス） -->
+<header class="site-header">
+  <a href="#top" class="logo"><img src="images2/logo.png" alt="東大津高校 ロゴ"></a>
+  <nav class="gnav">
+    <a href="#about">かめむ～とは</a>
+    <a href="#profile">プロフィール</a>
+    <a href="#school">連絡先</a>
+    <a href="#insta">このサイトについて</a>
+  </nav>
+</header>
+
+<!-- ヒーロー -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-sub">東大津高校</p>
+      <h1>かめむ～</h1>
+      <p class="hero-lead">テスト用サイト</p>
+    </div>
+  </div>
+</section>
+
+<!-- 画像ボタン4つ -->
+<section class="nav-cards">
+  <ul>
+    <li><a href="#about"><img src="images2/nav1.png" alt="かめむ～とは"></a></li>
+    <li><a href="#profile"><img src="images2/nav2.png" alt="プロフィール"></a></li>
+    <li><a href="#school"><img src="images2/nav3.png" alt="学校生活"></a></li>
+    <li><a href="#movie"><img src="images2/nav4.png" alt="動画・SNS"></a></li>
+  </ul>
+</section>
+
+<main>
+  <section id="about" class="section">
+    <h2><img src="images2/profile.png" alt="かめむ～とは？"></h2>
+    <div class="row">
+      <div class="text">
+                <dl class="profile">
+          <dt>名前</dt><dd>かめむ～</dd>
+          <dt>所属</dt><dd>東大津高校</dd>
+          <dt>身長</dt><dd>約1メートル</dd>
+        </dl>
+      </div>
+      <figure><img src="images2/chara.png" alt="かめむ～のイラスト"></figure>
+    </div>
+  </section>
+
+  <!-- 
+
+  <section id="profile" class="section">
+    <h2><img src="images/title-profile.svg" alt="プロフィール"></h2>
+    <div class="row reverse">
+      <div class="text">
+        <dl class="profile">
+          <dt>名前</dt><dd>かめむ～</dd>
+          <dt>所属</dt><dd>東大津高校</dd>
+          <dt>好きなもの</dt><dd>お昼寝・日なたぼっこ</dd>
+          <dt>特技</dt><dd>ゆっくり歩くこと</dd>
+        </dl>
+        <p>※プロフィールの内容は仮のものです。</p>
+      </div>
+      <figure><img src="images2/chara.png" alt="プロフィール用イラスト"></figure>
+    </div>
+  </section>
+
+  <section id="school" class="section">
+    <h2><img src="images/title-school.svg" alt="学校生活"></h2>
+    <div class="row">
+      <div class="text">
+        <p>授業、部活動、文化祭、体育祭など、東大津高校での毎日をかめむ～と一緒にのぞいてみましょう。</p>
+        <p>ここに学校の特色や行事の紹介文が入ります。</p>
+      </div>
+      <figure><img src="images/photo-school.svg" alt="学校生活のイラスト"></figure>
+    </div>
+  </section>
+
+  
+  <section id="insta" class="section">
+    <h2><img src="images/title-insta.svg" alt="Instagram"></h2>
+    <p class="lead">学校の公式Instagramの投稿一覧です。</p>
+    <ul class="insta-grid">
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-1.svg" alt="入学式の投稿"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-2.svg" alt="文化祭の投稿"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-3.svg" alt="部活動の投稿"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-4.svg" alt="体育祭の投稿"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-5.svg" alt="修学旅行の投稿"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="images/insta-6.svg" alt="卒業式の投稿"></a></li>
+    </ul>
+    <p class="more"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagramでもっと見る →</a></p>
+  </section>
+
+  <section id="movie" class="section">
+    <h2><img src="images/title-movie.svg" alt="学校紹介ムービー"></h2>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="学校紹介動画"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+</main>
+
+
+-->
+<footer class="site-footer">
+  <p>かめむ～ 非公式ページ</p>
+</footer>
+
+
+<a href="#top" class="totop" id="totop" aria-label="ページの上部へ戻る"><img src="images2/top.png" alt="TOP"></a>
+
+<script>
+  const btn = document.getElementById('totop');
+  addEventListener('scroll', () => btn.classList.toggle('show', scrollY > 400));
+</script>
+</body>
+</html>
